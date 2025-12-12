@@ -1,0 +1,188 @@
+execve("./build/main", ["./build/main"], 0xfffff0638c70 /* 78 vars */) = 0
+brk(NULL)                               = 0xaaaaf9e7a000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffff92c07000
+faccessat(AT_FDCWD, "/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/tls/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib/tls/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/tls/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib/tls/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/tls/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib/tls/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib/tls", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/devel/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/devel/lib", {st_mode=S_IFDIR|0775, st_size=12288, ...}, 0) = 0
+openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/tls", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ros/noetic/lib", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/tls", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/tls", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/tls", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/aarch64/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/aarch64/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/aarch64", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/atomics/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/atomics", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/xololibra/install/lib/mavlink_sitl_gazebo/plugins", 0xffffdc5c1a30, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=246860, ...}) = 0
+mmap(NULL, 246860, PROT_READ, MAP_PRIVATE, 3, 0) = 0xffff92b9e000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\37\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31584, ...}) = 0
+mmap(NULL, 95032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffff92b86000
+mprotect(0xffff92b8d000, 61440, PROT_NONE) = 0
+mmap(0xffff92b9c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0xffff92b9c000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/xololibra/devel/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\220\247\t\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1907976, ...}) = 0
+mmap(NULL, 1984112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffff929a1000
+mprotect(0xffff92b66000, 61440, PROT_NONE) = 0
+mmap(0xffff92b75000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c4000) = 0xffff92b75000
+mmap(0xffff92b83000, 9840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffff92b83000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/xololibra/devel/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\320)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=80200, ...}) = 0
+mmap(NULL, 144472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffff9297d000
+mprotect(0xffff92990000, 61440, PROT_NONE) = 0
+mmap(0xffff9299f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0xffff9299f000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/xololibra/devel/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`\17\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1450832, ...}) = 0
+mmap(NULL, 1519552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffff9280a000
+mprotect(0xffff92965000, 61440, PROT_NONE) = 0
+mmap(0xffff92974000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15a000) = 0xffff92974000
+mmap(0xffff9297a000, 12224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffff9297a000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/xololibra/devel/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0Ha\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=164304, ...}) = 0
+mmap(NULL, 197624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffff927d9000
+mprotect(0xffff927f5000, 61440, PROT_NONE) = 0
+mmap(0xffff92804000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0xffff92804000
+mmap(0xffff92806000, 13304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffff92806000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/xololibra/devel/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ros/noetic/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/gazebo-11/plugins/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\360\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=633832, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffff92c05000
+mmap(NULL, 696440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffff9272e000
+mprotect(0xffff927c7000, 65536, PROT_NONE) = 0
+mmap(0xffff927d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x99000) = 0xffff927d7000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffff92c03000
+mprotect(0xffff92974000, 16384, PROT_READ) = 0
+mprotect(0xffff927d7000, 4096, PROT_READ) = 0
+mprotect(0xffff92804000, 4096, PROT_READ) = 0
+mprotect(0xffff9299f000, 4096, PROT_READ) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffff92c01000
+mprotect(0xffff92b75000, 45056, PROT_READ) = 0
+mprotect(0xffff92b9c000, 4096, PROT_READ) = 0
+mprotect(0xaaaac8591000, 4096, PROT_READ) = 0
+mprotect(0xffff92c0c000, 4096, PROT_READ) = 0
+munmap(0xffff92b9e000, 246860)          = 0
+set_tid_address(0xffff92c030e0)         = 4256
+set_robust_list(0xffff92c030f0, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0xffff927debd0, sa_mask=[], sa_flags=SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0xffff927dec90, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0xaaaaf9e7a000
+brk(0xaaaaf9e9b000)                     = 0xaaaaf9e9b000
+futex(0xffff92b836c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0xffff92b836cc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+write(1, "Enter file name: ", 17)       = 17
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+read(0, "input.txt\n", 1024)            = 10
+statfs("/dev/shm/", {f_type=TMPFS_MAGIC, f_bsize=4096, f_blocks=500576, f_bfree=500576, f_bavail=500576, f_files=500576, f_ffree=500575, f_fsid={val=[135675673, 2118512236]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_NOSUID|ST_NODEV}) = 0
+futex(0xffff92809348, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/dev/shm/mymmap", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0666) = 3
+ftruncate(3, 4096)                      = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0xffff92c00000
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xffff92c030e0) = 4285
+wait4(4285, NULL, 0, NULL)              = 4285
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4285, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+write(1, "1.0 4.5\n", 8)                = 8
+write(1, "\n", 1)                       = 1
+munmap(0xffff92c00000, 4096)            = 0
+unlinkat(AT_FDCWD, "/dev/shm/mymmap", 0) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
