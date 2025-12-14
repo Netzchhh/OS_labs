@@ -1,0 +1,39 @@
+#include "../include/contract.h"
+#include <algorithm>
+
+extern "C" {
+
+// Наивный алгоритм для НОД
+int GCF(int A, int B) {
+    if (A <= 0 || B <= 0) return 0;
+    
+    int minNum = std::min(A, B);
+    int result = 1;
+    
+    for (int i = 2; i <= minNum; i++) {
+        if (A % i == 0 && B % i == 0) {
+            result = i;
+        }
+    }
+    
+    return result;
+}
+
+// Пузырьковая сортировка
+int* Sort(int* array, int size) {
+    if (!array || size <= 0) return array;
+    
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - i - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                int temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+            }
+        }
+    }
+    
+    return array;
+}
+
+}
